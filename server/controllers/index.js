@@ -25,9 +25,9 @@ module.exports.displayAboutPage = (req, res, next) => {
   });
 };
 
-module.exports.displayProductsPage = (req, res, next) => {
-  res.render("index", {
-    title: "Products",
+module.exports.displayProjectsPage = (req, res, next) => {
+  res.render("projects", {
+    title: "Projects",
     displayName: req.user ? req.user.displayName : "",
   });
 };
