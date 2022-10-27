@@ -1,6 +1,4 @@
-module.exports = 
-{
-    //"URI": "mongodb://localhost/book_store"
-    "URI": "mongodb+srv://thomas:Hq3DKYN2NaAqGyyV@mongodbserver.k15hk.azure.mongodb.net/book_store?retryWrites=true&w=majority",
-    "Secret": 'SomeSecret'
-}
+module.exports = {
+  URI: "mongodb+srv://ruthfdg:7Zizv1ppHDM1G99q@atlascluster.884ryak.mongodb.net/test?retryWrites=true&w=majority",
+  Secret: "SomeSecret",
+};
